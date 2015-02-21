@@ -1,0 +1,195 @@
+/*Gul bakgrunn utenfor siden*/
+body {
+	background: #fce68f;
+}
+/*Ytre div som angir sidens bredde*/
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+/*Toppbilde med siluett*/
+#header {
+	color: #ffffff;
+	background: #000000;
+	padding: 10px;
+}
+#header h1 {
+	margin: 0;
+	padding: 0;
+}
+/*Toppmeny over forumet*/
+#meny {
+	color: #ffffff;
+	background: #000080;
+	text-align: left;
+	padding: 8px 0;
+}
+#meny ul li {
+	display: inline;
+	padding: 8px 15px;
+}
+#meny a {
+	color: #ffffff;
+	font-weight: bold;
+}
+#meny a:hover {
+	text-decoration: underline;
+}
+/*Hele forumet*/
+#kropp {
+	background: #ffffff;
+	width: 960px;
+	padding: 10px;
+	text-align: left;
+}
+/*Forumets meny*/
+#submeny {
+	text-align: left;
+	color: #000000;
+	background: #ffffff;
+	padding: 5px 10px 20px;
+	position: relative;
+}
+#submeny .Search, #submeny #Search {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	text-align: right;
+}
+#submeny form {
+	float: right;
+	width: 250px;
+	padding: 0;
+}
+#submeny form input.InputBox {
+	width: 204px;
+	border: solid 1px #000080;
+	padding: 4px;
+	margin: 0 6px 0 0;
+	background: #fff;
+	color: #969696;
+	font-size: 13px;
+	vertical-align: bottom;
+}
+#submeny form input.Button {
+	font-size: 11px;
+	border: none;
+}
+
+#Menu {
+	display: inline-block;
+	margin-right: 280px;
+	vertical-align: bottom;
+}
+#Menu li {
+	line-height: 27px;
+	float: left;
+	position: relative;
+	display: block;
+	list-style: none;
+	padding: 0;
+	margin: 0 4px 0 0;
+	font-weight: bold;
+	text-align: left;
+}
+* html #Menu li {
+	display: inline;
+}
+#Menu a {
+	border: 0;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	padding: 0 7px;
+	white-space: nowrap;
+	font-size: 11px;
+	height: 28px;
+}
+* html #Menu a {
+	display: inline;
+	padding: 6px 10px;
+}
+#Menu li.NonTab, #Menu li.NonTab a {
+	font-weight: normal;
+}
+#Menu a {
+	color: #000000;
+}
+#Menu a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+#Menu a span, #Menu li.Active a span, #Menu li.Highlight a:hover span {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 0 2px;
+	font-size: 9px;
+	line-height: 12px;
+	font-weight: normal;
+	text-shadow: none;
+	background: #f2fcff;
+	color: #299fc7;
+}
+/*Forumets innhold*/
+#Content {
+	float: left;
+	width: 680px;
+	margin: 0 0 40px;
+}
+/*Høyremeny*/
+#Panel {
+	width: 250px;
+	float: right;
+}
+/*Sidevelger*/
+.NumberedPager, .PrevNextPager {
+	margin: 1px 0 0;
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+}
+#PagerBefore {
+	margin: 1px 0;
+}
+.NumberedPager a, .NumberedPager span {
+	padding: 0 4px;
+}
+.NumberedPager span, .NumberedPager a.Highlight {
+	color: #777;
+}
+.NumberedPager a.Next, .NumberedPager span.Next, .NumberedPager a.Previous, .NumberedPager span.Previous {
+	font-size: 16px;
+	line-height: 10px;
+}
+.NumberedPager a.Next, .NumberedPager span.Next {
+	margin-left: 6px;
+}
+.NumberedPager a.Previous, .NumberedPager span.Previous {
+	margin-right: 6px;
+}
+.Box {
+	background: none repeat scroll 0 0 #cfecff;
+	border-radius: 1px;
+	box-shadow: 0 0 2px #999;
+	color: #888;
+	margin: 0 0 10px;
+	padding: 6px 10px;
+}
+/*Powered by...*/
+#footer {
+	background: #ffffff;
+	text-align: center;
+}
+
+
+#Content .BoxNewDiscussion {
+	display: block;
+}
+.Pager {
+	float: none;
+}
+.JustNew
+{
+	display:inline;
+}
